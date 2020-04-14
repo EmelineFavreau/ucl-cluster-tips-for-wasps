@@ -1,0 +1,26 @@
+### Log to the cluster (ssh) without password
+
+# in your laptop home, generate a new ssh key
+ssh-keygen
+
+# save the key in your .ssh/id_rsa
+
+# copy the id of the cluster to the key, here I put Myriad
+ssh-copy-id ucfaeef@myriad.rc.ucl.ac.uk
+
+# ssh in cluster to make sure it works without password
+# change the ucxxxxx for your username
+ssh ucxxxxx@myriad.rc.ucl.ac.uk
+
+
+### ssh with shorter words
+
+# in the file .ssh/config, copy the following
+# change the ucxxxxx for your username
+
+Host myriad
+   User ucxxxxx
+   HostName myriad.rc.ucl.ac.uk
+
+# try to login from your laptop terminal with the following
+ssh myriad
