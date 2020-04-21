@@ -24,3 +24,8 @@ Host myriad
 
 # try to login from your laptop terminal with the following
 ssh myriad
+
+### locally mount myriad
+# macbook specific alias to write in .zshrc or .bashrc 
+alias myriadMount="mkdir ~/myriad; sshfs -o follow_symlinks myriad: ~/myriad"
+alias myriadUmount='umount ~/myriad'
