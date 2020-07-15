@@ -1,0 +1,12 @@
+# this was working on UCL cluster without the need for a module Nextflow 
+# prep nextflow
+module load java/1.8.0_45
+curl -s https://get.nextflow.io | bash
+
+# get pipeline https://singularity-hub.org/collections/1127
+singularity pull shub://nf-core/eager:latest
+
+# config file: https://github.com/UCL-BLIC/rnaseq_variant_calling/blob/master/conf/myriad.config
+
+# run test pipeline
+./nextflow run hello -bg

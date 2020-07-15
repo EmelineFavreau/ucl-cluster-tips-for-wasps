@@ -1,0 +1,28 @@
+# current config file is called myriad.config
+#  needs to be in current directory
+
+# You also need to make sure you follow the singularity bash options from:
+# https://www.rc.ucl.ac.uk/docs/Software_Guides/Singularity/
+
+# Then when you call Nexflow, you must first load the modules:
+module load blic-modules nextflow
+
+# Then you can run say the rnaseq pipeline
+# use full path to files
+nextflow -c myriad.config run nf-core/rnaseq -profile singularity -r 1.4.2 --reads Test_data/read1.fq.gz --fasta genome.fasta --gff species.gff3 -with-report -with-trace -bg --singleEnd
+
+
+# Once you have Nextflow set up and know how to run things you can also try NF-tower. This is a nice way to tract how a particular pipeline is running
+
+
+#You need to register here : https://tower.nf/
+
+# Add some lines to your .bashrc on myriad
+# Follow the instructions on tower
+
+
+# Then add this to the nextflow command:
+-with-tower
+
+
+# Then go on https://tower.nf/ to see the job running
