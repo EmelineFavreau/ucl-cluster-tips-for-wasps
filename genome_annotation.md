@@ -36,3 +36,8 @@ GO prediction tools
 - CrowdGO uses output of other predictions tools and gives a consensus: presentation (https://bcc2020.sched.com/event/coKy/crowdgo-gene-ontology-prediction-using-a-meta-approach) and pre-print (https://www.biorxiv.org/content/10.1101/731596v2)
 
 - KEGG enrichment: Limma's function kegga (http://web.mit.edu/~r/current/arch/i386_linux26/lib/R/library/limma/html/goana.html). More here: https://yulab-smu.github.io/clusterProfiler-book/chapter6.html. Also: spia, an R package. It requires kegg xml files which I downloaded from genome.jp/kegg-bin
+
+## Other tools
+- Gene Set Enrichment Analysis (GSEA): a computational method that determines whether an a priori defined set of genes shows statistically
+significant, concordant differences between two biological states
+(e.g. phenotypes). https://www.gsea-msigdb.org/gsea/index.jsp
