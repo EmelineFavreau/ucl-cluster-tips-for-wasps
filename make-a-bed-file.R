@@ -12,6 +12,8 @@ bed_col2 <- (as.numeric(gsub(x = sig_n_snp_vec,
      pattern = ".*:|([A-Z],[A-Z])",
      replacement = ""))) - 500
 
+bed_col2[bed_col2 < 0] <- 0
+
 # third column of BED is the end of the region 
 bed_col3 <- (as.numeric(gsub(x = sig_n_snp_vec,
                              pattern = ".*:|([A-Z],[A-Z])",
