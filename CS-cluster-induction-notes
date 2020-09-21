@@ -1,0 +1,31 @@
+Induction delivered by Jamie O'Connor
+
+1. ask for an account CS here: https://hpc.cs.ucl.ac.uk/account-form
+need username + password combination
+
+2. read about the cluster https://hpc.cs.ucl.ac.uk/ (hpc and comic)
+- full guide: https://hpc.cs.ucl.ac.uk/full-guide/
+- do the carprentries incubator extra unix shell material
+- CS use sge. more info: https://hpc.cs.ucl.ac.uk/introduction-to-sge/ with examples on how to send jobs
+- learn about data-storage: https://hpc.cs.ucl.ac.uk/data-storage/
+
+3. login from terminal
+ssh efavreau@tails.cs.ucl.ac.uk (use the username + password from CS cluster)
+then ssh into the login nodes for bioinformatics either: pchuckle.cs.ucl.ac.uk or morecambe.cs.ucl.ac.uk
+don't perform any computation, there are login!
+
+4. ask for project stores because home is not back up: https://hpc.cs.ucl.ac.uk/storage-form/ ask for help if needed. Ask for a generous amount of storage (1TB - 5TB is ok)
+
+# before sending a big job, use the interactive session for 30 min
+qrsh -l tmem=4G, h_rt=00:30:00,h_vmem=4G
+# your data, the software are all available, quite useful!
+
+Ed and Jamie are available for any question: cluster-support@cs.ucl.ac.uk
+They can install a sorftware within a week
+
+check out the /share/apps/genomics!!! So many softwares that we use!
+look at /share/apps/source_files/ for python
+
+source
+python3 --version
+pip3 install -r package--user
