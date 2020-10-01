@@ -1,0 +1,28 @@
+Guide for collaboration
+
+Designing a project that welcomes contributions (new ideas, bug reports, actual code contributions)
+  
+Running an inclusive event. addressing technical issues (tutorials, testing is important, reproducibility, code sharing with version control, think about privacy issues) and valuing the importance of diversity in team building (create task lists with varying requirements of time and resources, invite a non-expert to expand viewpoints).
+
+
+
+
+To do:
+# Idea 1: creating a readme file. README files are the welcome mat for your project. They are the first thing new visitors to your project will see and thus are part of a set of really important documents to make potential contributors feel welcome and invite them to get involved. Your README file should cover:
+- What you are doing, for who, and why. Defining explicit expectations
+- What makes your project special and exciting.
+- How to get started.
+- Where to find key resources (documentation for new students coming).
+
+# Idea 2: think about a persona and how they will interact with the project.
+- Modify current readme and/or organisation to improve the interaction.
+- Write a Code of Conduct/Participating Guidelines with: Your project vision. A welcome to potential contributors. Pointers to the Code of Conduct. A list of other important resources such as the README file or your project’s roadmap. Communication channels where contributors can reach you. How to submit changes. Good first bugs or issues to start working on. How to report a bug. Your recognition model and how contributions will get acknowledged. Where to go for help.
+
+# Idea 3: Who would do Project Maintenance? Long term person?
+What to do? include new people, encourage to collaborate, who can delete, merge pull request. Distributed collaboration on GitHub
+
+# Idea 4: tutorial about Github, request for sharing knowledge
+- short and concise tutorials are the best
+
+# Idea 5: request for code testing/code review is for next week's challenge
+Reviewing team member’s contributions
